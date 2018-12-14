@@ -1,0 +1,207 @@
+html, body{
+  margin: 0; padding:0;
+}
+
+.top{
+  display:block;
+  width: 1440px;
+  height: 538px;
+  margin: 0px auto;
+  background-image: url("images/bg.jpg");
+  position: relative;
+}
+
+.bottom{
+  display:block;
+  width: 1440px;
+  height: 200px;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+
+footer {
+  height: 70px;
+  width: 1440px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.top-text{
+  padding-top: 150px;
+  height: 335px;
+}
+
+h1, h2, h3{
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-family: Lucida, helvetica, arial, verdana;
+}
+
+h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+h2{
+  
+  font-size: 28px;
+  width: 900px;
+  margin: 10px auto;
+}
+
+h3{
+  line-height: 30px;
+}
+
+.play{
+  vertical-align: middle;
+}
+
+.quarter-ad{
+  display: inline-block;
+  width: 360px;
+  box-sizing: border-box;
+}
+
+.footer-left{
+  width: 480px;
+  float:left;
+}
+
+.footer-right{
+  width: 510px;
+  float:right;
+}
+
+.footer-shop{
+  font-size: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: rgb(110, 110, 110);
+}
+
+.footer-copyright{
+  font-size: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: rgb(110, 110, 110);
+  display: inline-block;
+}
+
+.footer-privacy{
+  font-size: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: rgb(110, 110, 110);
+  display: inline-block;
+  border-left: 1px solid lightgray;
+  padding-left: 7px;
+}
+
+li{
+  font-size: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: rgb(110, 110, 110);
+  display: inline-block;
+  line-height: 10px;
+  vertical-align: middle;
+  border-left: 1px solid lightgray;
+  padding-left: 7px;
+}
+
+ul{
+  line-height: 10px;
+  padding:0;
+}
+
+.footer-container{
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.no-border{
+  border:none;
+  padding-left:none;
+}
+
+.nav-item{
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: white;
+  display: inline-block;
+  line-height: 10px;
+  border: 1px solid rgb(77, 76, 76);
+  width: 80px;
+  height: 20px;
+  background: linear-gradient(#6f6f6f,#5e5e5e 49%, #666666 50%,#8c8c8c);
+  padding-left: 0;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#first-item{
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: white;
+  display: inline-block;
+  line-height: 10px;
+  border: 1px solid rgb(77, 76, 76);
+  width: 80px;
+  height: 20px;
+  background: linear-gradient(#6f6f6f,#5e5e5e 49%, #666666 50%,#8c8c8c);
+  padding: 4px 0 6px 0;
+  border-radius: 5px 0 0 5px;
+}
+
+
+.apple{
+  margin: auto;
+  display:block;
+
+}
+
+#last-item{
+  border-radius: 0 5px 5px 0;
+  width: 140px;
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: white;
+  display: inline-block;
+  line-height: 10px;
+  border: 1px solid rgb(77, 76, 76);
+  height: 20px;
+  background: linear-gradient(#6f6f6f,#5e5e5e 49%, #666666 50%,#8c8c8c);
+  padding-left: 0;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  position: relative;
+}
+
+.search{
+  width: 115px;
+  height: 22px;
+  display:inline-block;
+  background: linear-gradient(#6f6f6f,#5e5e5e 49%, #666666 50%,#8c8c8c);
+  border-radius: 12px;
+  border-color:white;
+  border-width: 0;
+  box-shadow: 0px 1px 1px 1px rgb(34, 34, 34) inset;
+}
+
+.mag{
+  position: absolute;
+  display:inline-block;
+}
+
+nav{
+  position: absolute;
+  min-width: 800px;
+  top: 30px;
+  left: 300px;
+}
